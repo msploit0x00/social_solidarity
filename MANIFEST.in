@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include social_solidarity *.css
+recursive-include social_solidarity *.csv
+recursive-include social_solidarity *.html
+recursive-include social_solidarity *.ico
+recursive-include social_solidarity *.js
+recursive-include social_solidarity *.json
+recursive-include social_solidarity *.md
+recursive-include social_solidarity *.png
+recursive-include social_solidarity *.py
+recursive-include social_solidarity *.svg
+recursive-include social_solidarity *.txt
+recursive-exclude social_solidarity *.pyc
