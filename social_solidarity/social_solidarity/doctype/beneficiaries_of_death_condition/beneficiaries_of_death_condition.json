@@ -1,0 +1,54 @@
+{
+ "actions": [],
+ "autoname": "autoincrement",
+ "creation": "2023-12-11 17:58:43.468073",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "name1",
+  "kinship",
+  "address",
+  "national_id_number"
+ ],
+ "fields": [
+  {
+   "fieldname": "name1",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Name"
+  },
+  {
+   "fieldname": "kinship",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Kinship",
+   "options": "\nSon\nDaughter\nFather\nMother\nSister\nBrother"
+  },
+  {
+   "fieldname": "address",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Address"
+  },
+  {
+   "fieldname": "national_id_number",
+   "fieldtype": "Data",
+   "label": "\u0627\u0644\u0631\u0642\u0645 \u0627\u0644\u0642\u0648\u0645\u064a"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2024-05-28 13:19:56.923532",
+ "modified_by": "Administrator",
+ "module": "Social Solidarity",
+ "name": "Beneficiaries of Death Condition",
+ "naming_rule": "Autoincrement",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

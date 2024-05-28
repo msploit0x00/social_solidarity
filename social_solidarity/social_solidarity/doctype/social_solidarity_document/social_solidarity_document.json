@@ -1,0 +1,245 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "SOC-.####",
+ "creation": "2023-12-11 14:05:20.513586",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "id",
+  "member",
+  "member_code_in_social_solidarity",
+  "member_number",
+  "rank",
+  "division",
+  "sub_syndicate",
+  "customer_name",
+  "date_of_birth",
+  "age",
+  "registration_date",
+  "subscription_age",
+  "payment_method",
+  "cheque_number",
+  "saqu_number",
+  "registeration_number",
+  "mobile_number",
+  "phone",
+  "personal_identification_number",
+  "customer_address",
+  "sector_number",
+  "subsidiary_union",
+  "section_break_10",
+  "date_of_issue",
+  "employer",
+  "employer_address",
+  "beneficiaries_of_death_condition_section",
+  "beneficiaries_of_death_condition"
+ ],
+ "fields": [
+  {
+   "fieldname": "id",
+   "fieldtype": "Link",
+   "label": "ID",
+   "options": "Social Solidarity Document",
+   "read_only": 1
+  },
+  {
+   "fieldname": "member",
+   "fieldtype": "Link",
+   "label": "Membership ID",
+   "options": "Customer"
+  },
+  {
+   "fetch_from": "member.custom_social_solidarity_code",
+   "fieldname": "member_code_in_social_solidarity",
+   "fieldtype": "Data",
+   "in_standard_filter": 1,
+   "label": "\u0643\u0648\u062f \u0627\u0644\u0639\u0636\u0648 \u0628\u0635\u0646\u062f\u0648\u0642 \u0627\u0644\u062a\u0643\u0627\u0641\u0644"
+  },
+  {
+   "fetch_from": "member.custom_division_number",
+   "fieldname": "member_number",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "\u0631\u0642\u0645 \u0627\u0644\u0642\u064a\u062f"
+  },
+  {
+   "fetch_from": "member.custom_rank",
+   "fieldname": "rank",
+   "fieldtype": "Data",
+   "label": "\u0627\u0644\u0631\u062a\u0628\u0629"
+  },
+  {
+   "fetch_from": "member.custom_division",
+   "fieldname": "division",
+   "fieldtype": "Data",
+   "label": "\u0627\u0644\u0634\u0639\u0628\u0629"
+  },
+  {
+   "fetch_from": "member.custom_sub_syndicate",
+   "fieldname": "sub_syndicate",
+   "fieldtype": "Select",
+   "label": "\u0627\u0644\u0646\u0642\u0627\u0628\u0629 \u0627\u0644\u0641\u0631\u0639\u064a\u0629",
+   "options": "\n\u0627\u0644\u062c\u064a\u0632\u0629\n\u0625\u0633\u0643\u0646\u062f\u0631\u064a\u0629\n\u0623\u0633\u0648\u0627\u0646\n\u0623\u0633\u064a\u0648\u0637\n\u0627\u0644\u0628\u062d\u064a\u0631\u0629\n\u0627\u0644\u0632\u0642\u0627\u0632\u064a\u0642\n\u0627\u0644\u0633\u0648\u064a\u0633\n\u0627\u0644\u0641\u064a\u0648\u0645\n\u0627\u0644\u0642\u0627\u0647\u0631\u0629\n\u0627\u0644\u0645\u062d\u0644\u0629 \u0627\u0644\u0643\u0628\u0631\u064a\n\u0627\u0644\u0645\u0646\u0635\u0648\u0631\u0629\n\u0627\u0644\u0623\u0642\u0635\u0631\n\u0627\u0644\u0625\u0633\u0645\u0627\u0639\u0644\u064a\u0629\n\u0627\u0644\u0628\u062d\u0631 \u0627\u0644\u0627\u062d\u0645\u0631\n\u0628\u0646\u064a \u0633\u0648\u064a\u0641\n\u0628\u0648\u0631\u0633\u0639\u064a\u062f\n\u062c\u0646\u0648\u0628 \u0633\u064a\u0646\u0627\u0621\n\u0627\u0644\u062f\u0642\u0647\u0644\u064a\u0629\n\u062f\u0645\u064a\u0627\u0637\n\u0633\u0648\u0647\u0627\u062c\n\u0627\u0644\u0633\u0648\u064a\u0633\n\u0627\u0644\u0634\u0631\u0642\u064a\u0629\n\u0634\u0645\u0627\u0644 \u0633\u064a\u0646\u0627\u0621\n\u0627\u0644\u063a\u0631\u0628\u064a\u0629\n\u0627\u0644\u0641\u064a\u0648\u0645\n\u0645\u0631\u0633\u064a \u0645\u0637\u0631\u0648\u062d\n\u0627\u0644\u0642\u0644\u064a\u0648\u0628\u064a\u0629\n\u0642\u0646\u0627\n\u0643\u0641\u0631 \u0627\u0644\u0634\u064a\u062e\n\u0627\u0644\u0645\u0646\u0648\u0641\u064a\u0629\n\u0627\u0644\u0645\u0646\u064a\u0627\n\u0627\u0644\u0648\u0627\u062f\u064a \u0627\u0644\u062c\u062f\u064a\u062f"
+  },
+  {
+   "fetch_from": "member.customer_name",
+   "fetch_if_empty": 1,
+   "fieldname": "customer_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Customer Name"
+  },
+  {
+   "fetch_from": "member.date_of_birth",
+   "fetch_if_empty": 1,
+   "fieldname": "date_of_birth",
+   "fieldtype": "Date",
+   "label": "Date of Birth"
+  },
+  {
+   "fetch_from": "member.age",
+   "fieldname": "age",
+   "fieldtype": "Data",
+   "label": "Age"
+  },
+  {
+   "fieldname": "registration_date",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "\u062a\u0627\u0631\u064a\u062e \u0628\u062f\u0627\u064a\u0629 \u0627\u0644\u0625\u0634\u062a\u0631\u0627\u0643"
+  },
+  {
+   "fieldname": "subscription_age",
+   "fieldtype": "Data",
+   "label": "\u0628\u062f\u0627\u064a\u0629 \u0633\u0646 \u0627\u0644\u0625\u0634\u062a\u0631\u0627\u0643 \u0641\u064a \u0635\u0646\u062f\u0648\u0642 \u0627\u0644\u062a\u0643\u0627\u0641\u0644",
+   "read_only": 1
+  },
+  {
+   "fieldname": "payment_method",
+   "fieldtype": "Select",
+   "label": "Payment Method",
+   "options": "\n\u0634\u064a\u0643\n\u0646\u0642\u062f\u064a\n\u0642\u0633\u064a\u0645\u0629 \u0625\u064a\u062f\u0627\u0639"
+  },
+  {
+   "fieldname": "cheque_number",
+   "fieldtype": "Data",
+   "label": "\u0631\u0642\u0645 \u0627\u0644\u0634\u064a\u0643 \u0627\u0648 \u0631\u0642\u0645 \u0642\u0633\u064a\u0645\u0629 \u0627\u0644\u0625\u064a\u062f\u0627\u0639"
+  },
+  {
+   "fieldname": "saqu_number",
+   "fieldtype": "Data",
+   "label": "\u0631\u0642\u0645 \u0627\u0644\u0635\u0643"
+  },
+  {
+   "fieldname": "registeration_number",
+   "fieldtype": "Data",
+   "label": "\u0631\u0642\u0645 \u0627\u0644\u0633\u062c\u0644"
+  },
+  {
+   "fetch_from": "member.mobil_2",
+   "fetch_if_empty": 1,
+   "fieldname": "mobile_number",
+   "fieldtype": "Data",
+   "label": "Mobile Number"
+  },
+  {
+   "fetch_from": "member.phone",
+   "fieldname": "phone",
+   "fieldtype": "Data",
+   "label": "Phone"
+  },
+  {
+   "fetch_from": "member.personal_identification_number",
+   "fetch_if_empty": 1,
+   "fieldname": "personal_identification_number",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Personal identification number"
+  },
+  {
+   "fetch_from": "member.customer_addres",
+   "fetch_if_empty": 1,
+   "fieldname": "customer_address",
+   "fieldtype": "Small Text",
+   "label": "\u0639\u0646\u0648\u0627\u0646 \u0627\u0644\u0639\u0636\u0648"
+  },
+  {
+   "fetch_from": "member.custom_sixten_date_for_member",
+   "fieldname": "sector_number",
+   "fieldtype": "Data",
+   "label": "\u062a\u0627\u0631\u064a\u062e \u0627\u0644\u062e\u0631\u0648\u062c \u0639\u0644\u064a \u0633\u0646 \u0627\u0644\u0633\u062a\u064a\u0646"
+  },
+  {
+   "fetch_from": "membership_id.customer_group",
+   "fieldname": "subsidiary_union",
+   "fieldtype": "Data",
+   "hidden": 1,
+   "label": "Subsidiary Union"
+  },
+  {
+   "fieldname": "section_break_10",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "date_of_issue",
+   "fieldtype": "Date",
+   "label": "\u062a\u0627\u0631\u064a\u062e \u0625\u0635\u062f\u0627\u0631 \u0627\u0644\u0625\u0633\u062a\u0645\u0627\u0631\u0629"
+  },
+  {
+   "fetch_from": "member.custom_employer",
+   "fetch_if_empty": 1,
+   "fieldname": "employer",
+   "fieldtype": "Data",
+   "label": "Employer"
+  },
+  {
+   "fieldname": "employer_address",
+   "fieldtype": "Small Text",
+   "label": "Employer Address"
+  },
+  {
+   "fieldname": "beneficiaries_of_death_condition_section",
+   "fieldtype": "Section Break",
+   "label": "Beneficiaries of Death Condition"
+  },
+  {
+   "fieldname": "beneficiaries_of_death_condition",
+   "fieldtype": "Table",
+   "label": "Beneficiaries of Death Condition",
+   "options": "Beneficiaries of Death Condition"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-05-28 13:19:34.773991",
+ "modified_by": "Administrator",
+ "module": "Social Solidarity",
+ "name": "Social Solidarity Document",
+ "name_case": "UPPER CASE",
+ "naming_rule": "Autoincrement",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

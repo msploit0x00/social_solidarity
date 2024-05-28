@@ -1,0 +1,60 @@
+{
+ "charts": [],
+ "content": "[{\"id\":\"73aR_Ev61h\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">\u0627\u0644\u062a\u0643\u0627\u0641\u0644 \u0627\u0644\u0623\u062c\u062a\u0645\u0627\u0639\u064a</span>\",\"col\":12}},{\"id\":\"u5hr3FMILY\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Social Solidarity Document\",\"col\":3}},{\"id\":\"qQOV8Hww9v\",\"type\":\"card\",\"data\":{\"card_name\":\"\u062a\u0642\u0627\u0631\u064a\u0631 \u0635\u0646\u0639\u062a \u062e\u0635\u064a\u0635\u0627\",\"col\":4}}]",
+ "creation": "2023-08-28 10:43:00.707917",
+ "custom_blocks": [],
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "for_user": "",
+ "hide_custom": 0,
+ "icon": "quantity-1",
+ "idx": 0,
+ "is_hidden": 0,
+ "label": "Social Solidarity",
+ "links": [
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "\u062a\u0642\u0627\u0631\u064a\u0631 \u0635\u0646\u0639\u062a \u062e\u0635\u064a\u0635\u0627",
+   "link_count": 1,
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "\u0648\u062b\u064a\u0642\u0629 \u0627\u0644\u062a\u0643\u0627\u0641\u0644 \u0627\u0644\u0623\u062c\u062a\u0645\u0627\u0639\u064a",
+   "link_count": 0,
+   "link_to": "\u0648\u062b\u064a\u0642\u0629 \u0627\u0644\u062a\u0643\u0627\u0641\u0644 \u0627\u0644\u0623\u062c\u062a\u0645\u0627\u0639\u064a",
+   "link_type": "Report",
+   "onboard": 0,
+   "type": "Link"
+  }
+ ],
+ "modified": "2023-12-24 14:49:55.578173",
+ "modified_by": "Administrator",
+ "module": "Social Solidarity",
+ "name": "Social Solidarity",
+ "number_cards": [],
+ "owner": "mina@datasofteg.com",
+ "parent_page": "",
+ "public": 1,
+ "quick_lists": [],
+ "restrict_to_domain": "Syndicate",
+ "roles": [
+  {
+   "role": "Social Solidarity"
+  }
+ ],
+ "sequence_id": 5.0,
+ "shortcuts": [
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Social Solidarity Document",
+   "link_to": "Social Solidarity Document",
+   "type": "DocType"
+  }
+ ],
+ "title": "Social Solidarity"
+}
