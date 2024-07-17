@@ -1,0 +1,54 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-07-08 13:23:02.985507",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "age",
+  "entry_fees",
+  "membership_fees",
+  "annual_installment",
+  "amount"
+ ],
+ "fields": [
+  {
+   "fieldname": "age",
+   "fieldtype": "Int",
+   "label": "\u0627\u0644\u0639\u0645\u0631"
+  },
+  {
+   "fieldname": "entry_fees",
+   "fieldtype": "Currency",
+   "label": "\u0631\u0633\u0645 \u0627\ufef9\u0634\u062a\u0631\u0627\u0643"
+  },
+  {
+   "fieldname": "membership_fees",
+   "fieldtype": "Currency",
+   "label": "\u0631\u0633\u0645 \u0627\u0644\u0639\u0636\u0648\u064a\u0629"
+  },
+  {
+   "fieldname": "annual_installment",
+   "fieldtype": "Currency",
+   "label": "\u0627\u0644\u0642\u0633\u0637 \u0627\u0644\u0633\u0646\u0648\u064a"
+  },
+  {
+   "fieldname": "amount",
+   "fieldtype": "Currency",
+   "label": "\u0627\u0644\u0645\u0628\u0644\u063a \u0627\u0644\u0645\u0633\u062a\u062d\u0642"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2024-07-17 10:42:47.632451",
+ "modified_by": "Administrator",
+ "module": "Social Solidarity",
+ "name": "Solidarity Setting Table",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

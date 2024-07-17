@@ -1,5 +1,6 @@
 {
  "actions": [],
+ "allow_import": 1,
  "allow_rename": 1,
  "autoname": "SOC-.####",
  "creation": "2023-12-11 14:05:20.513586",
@@ -30,12 +31,19 @@
   "customer_address",
   "sector_number",
   "subsidiary_union",
+  "section_break_xnltw",
+  "membership_fees",
+  "entry_fees",
+  "annual_installments",
+  "amount",
   "section_break_10",
   "date_of_issue",
   "employer",
   "employer_address",
   "beneficiaries_of_death_condition_section",
-  "beneficiaries_of_death_condition"
+  "beneficiaries_of_death_condition",
+  "section_break_u0awg",
+  "solidity_payment_table"
  ],
  "fields": [
   {
@@ -83,7 +91,7 @@
    "fieldname": "sub_syndicate",
    "fieldtype": "Select",
    "label": "\u0627\u0644\u0646\u0642\u0627\u0628\u0629 \u0627\u0644\u0641\u0631\u0639\u064a\u0629",
-   "options": "\n\u0627\u0644\u062c\u064a\u0632\u0629\n\u0625\u0633\u0643\u0646\u062f\u0631\u064a\u0629\n\u0623\u0633\u0648\u0627\u0646\n\u0623\u0633\u064a\u0648\u0637\n\u0627\u0644\u0628\u062d\u064a\u0631\u0629\n\u0627\u0644\u0632\u0642\u0627\u0632\u064a\u0642\n\u0627\u0644\u0633\u0648\u064a\u0633\n\u0627\u0644\u0641\u064a\u0648\u0645\n\u0627\u0644\u0642\u0627\u0647\u0631\u0629\n\u0627\u0644\u0645\u062d\u0644\u0629 \u0627\u0644\u0643\u0628\u0631\u064a\n\u0627\u0644\u0645\u0646\u0635\u0648\u0631\u0629\n\u0627\u0644\u0623\u0642\u0635\u0631\n\u0627\u0644\u0625\u0633\u0645\u0627\u0639\u0644\u064a\u0629\n\u0627\u0644\u0628\u062d\u0631 \u0627\u0644\u0627\u062d\u0645\u0631\n\u0628\u0646\u064a \u0633\u0648\u064a\u0641\n\u0628\u0648\u0631\u0633\u0639\u064a\u062f\n\u062c\u0646\u0648\u0628 \u0633\u064a\u0646\u0627\u0621\n\u0627\u0644\u062f\u0642\u0647\u0644\u064a\u0629\n\u062f\u0645\u064a\u0627\u0637\n\u0633\u0648\u0647\u0627\u062c\n\u0627\u0644\u0633\u0648\u064a\u0633\n\u0627\u0644\u0634\u0631\u0642\u064a\u0629\n\u0634\u0645\u0627\u0644 \u0633\u064a\u0646\u0627\u0621\n\u0627\u0644\u063a\u0631\u0628\u064a\u0629\n\u0627\u0644\u0641\u064a\u0648\u0645\n\u0645\u0631\u0633\u064a \u0645\u0637\u0631\u0648\u062d\n\u0627\u0644\u0642\u0644\u064a\u0648\u0628\u064a\u0629\n\u0642\u0646\u0627\n\u0643\u0641\u0631 \u0627\u0644\u0634\u064a\u062e\n\u0627\u0644\u0645\u0646\u0648\u0641\u064a\u0629\n\u0627\u0644\u0645\u0646\u064a\u0627\n\u0627\u0644\u0648\u0627\u062f\u064a \u0627\u0644\u062c\u062f\u064a\u062f"
+   "options": "\n\u0627\u0644\u062c\u064a\u0632\u0629\n\u0625\u0633\u0643\u0646\u062f\u0631\u064a\u0629\n\u0623\u0633\u0648\u0627\u0646\n\u0623\u0633\u064a\u0648\u0637\n\u0627\u0644\u0628\u062d\u064a\u0631\u0629\n\u0627\u0644\u0632\u0642\u0627\u0632\u064a\u0642\n\u0627\u0644\u0633\u0648\u064a\u0633\n\u0627\u0644\u0641\u064a\u0648\u0645\n\u0627\u0644\u0642\u0627\u0647\u0631\u0629\n\u0627\u0644\u0645\u062d\u0644\u0629 \u0627\u0644\u0643\u0628\u0631\u064a\n\u0627\u0644\u0645\u0646\u0635\u0648\u0631\u0629\n\u0627\u0644\u0623\u0642\u0635\u0631\n\u0627\u0644\u0625\u0633\u0645\u0627\u0639\u0644\u064a\u0629\n\u0627\u0644\u0628\u062d\u0631 \u0627\u0644\u0627\u062d\u0645\u0631\n\u0628\u0646\u064a \u0633\u0648\u064a\u0641\n\u0628\u0648\u0631\u0633\u0639\u064a\u062f\n\u062c\u0646\u0648\u0628 \u0633\u064a\u0646\u0627\u0621\n\u0627\u0644\u062f\u0642\u0647\u0644\u064a\u0629\n\u062f\u0645\u064a\u0627\u0637\n\u0633\u0648\u0647\u0627\u062c\n\u0627\u0644\u0633\u0648\u064a\u0633\n\u0627\u0644\u0634\u0631\u0642\u064a\u0629\n\u0634\u0645\u0627\u0644 \u0633\u064a\u0646\u0627\u0621\n\u0627\u0644\u063a\u0631\u0628\u064a\u0629\n\u0627\u0644\u0641\u064a\u0648\u0645\n\u0645\u0631\u0633\u064a \u0645\u0637\u0631\u0648\u062d\n\u0627\u0644\u0642\u0644\u064a\u0648\u0628\u064a\u0629\n\u0642\u0646\u0627\n\u0643\u0641\u0631 \u0627\u0644\u0634\u064a\u062e\n\u0627\u0644\u0645\u0646\u0648\u0641\u064a\u0629\n\u0627\u0644\u0645\u0646\u064a\u0627\n\u0627\u0644\u0648\u0627\u062f\u064a \u0627\u0644\u062c\u062f\u064a\u062f\n\u0634\u0628\u0631\u0627\n\u062f\u0633\u0648\u0642\n\u0642\u0646\u0627 \u0648 \u0627\u0644\u0627\u0642\u0635\u0631\n\u0643\u0641\u0631\u0627\u0644\u062f\u0648\u0627\u0631\n\u062f\u0645\u0646\u0647\u0648\u0631\n\u0637\u0646\u0637\u0627\n\u062d\u0644\u0648\u0627\u0646\n\u0646\u062c\u0639 \u062d\u0645\u0627\u062f\u0649"
   },
   {
    "fetch_from": "member.customer_name",
@@ -102,7 +110,6 @@
    "label": "Date of Birth"
   },
   {
-   "fetch_from": "member.age",
    "fieldname": "age",
    "fieldtype": "Data",
    "label": "Age"
@@ -117,8 +124,7 @@
   {
    "fieldname": "subscription_age",
    "fieldtype": "Data",
-   "label": "\u0628\u062f\u0627\u064a\u0629 \u0633\u0646 \u0627\u0644\u0625\u0634\u062a\u0631\u0627\u0643 \u0641\u064a \u0635\u0646\u062f\u0648\u0642 \u0627\u0644\u062a\u0643\u0627\u0641\u0644",
-   "read_only": 1
+   "label": "\u0628\u062f\u0627\u064a\u0629 \u0633\u0646 \u0627\u0644\u0625\u0634\u062a\u0631\u0627\u0643 \u0641\u064a \u0635\u0646\u062f\u0648\u0642 \u0627\u0644\u062a\u0643\u0627\u0641\u0644"
   },
   {
    "fieldname": "payment_method",
@@ -214,11 +220,45 @@
    "fieldtype": "Table",
    "label": "Beneficiaries of Death Condition",
    "options": "Beneficiaries of Death Condition"
+  },
+  {
+   "fieldname": "section_break_xnltw",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "membership_fees",
+   "fieldtype": "Currency",
+   "label": "Membership Fees"
+  },
+  {
+   "fieldname": "entry_fees",
+   "fieldtype": "Currency",
+   "label": "Entry Fees"
+  },
+  {
+   "fieldname": "annual_installments",
+   "fieldtype": "Currency",
+   "label": "Annual Installments"
+  },
+  {
+   "fieldname": "amount",
+   "fieldtype": "Currency",
+   "label": "Amount"
+  },
+  {
+   "fieldname": "section_break_u0awg",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "solidity_payment_table",
+   "fieldtype": "Table",
+   "label": "Solidity Payment Table",
+   "options": "Solidity Payment Table"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-05-28 13:19:34.773991",
+ "modified": "2024-07-16 15:52:26.557911",
  "modified_by": "Administrator",
  "module": "Social Solidarity",
  "name": "Social Solidarity Document",

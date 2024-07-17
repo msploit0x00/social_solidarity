@@ -1,0 +1,43 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-07-08 13:24:12.418402",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "solidarity_setting_table"
+ ],
+ "fields": [
+  {
+   "fieldname": "solidarity_setting_table",
+   "fieldtype": "Table",
+   "label": "Solidarity Setting Table",
+   "options": "Solidarity Setting Table"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "issingle": 1,
+ "links": [],
+ "modified": "2024-07-17 11:33:35.174230",
+ "modified_by": "Administrator",
+ "module": "Social Solidarity",
+ "name": "Solidarity Setting",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "print": 1,
+   "read": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
